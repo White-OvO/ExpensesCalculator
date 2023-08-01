@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #expense-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #expense-form input[type="text"],
+  #expense-form input[type="number"],
+  #expense-form input[type="submit"] {
+    margin-right: 10px;
+  }
+  
+  #expense-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .expense-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .expense-item .delete-btn {
+    color: red;
+    cursor: pointer;
+  }
+  
+  #total-expense {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+  }
